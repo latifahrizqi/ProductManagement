@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+.swal2-noanimation {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}
+
+/* Custom button colors for Swal */
+.swal2-confirm {
+  background-color: #10B981 !important; /* Green */
+  color: white !important;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: none !important;
+}
+
+.swal2-cancel {
+  background-color: #EF4444 !important; /* Red */
+  color: white !important;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: none !important;
+}
+
+.swal2-noanimation {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}
+
+
+
